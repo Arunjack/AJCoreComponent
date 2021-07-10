@@ -1,0 +1,6 @@
+framework module AJCoreComponent {
+  umbrella header "AJCoreComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
