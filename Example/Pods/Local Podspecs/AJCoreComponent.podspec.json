@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AJCoreComponent/Classes/**/*"
+  "source_files": "AJCoreComponent/Classes/**/*",
+  "resource_bundles": {
+    "AJCoreComponent": [
+      "AJCoreComponent/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
 }

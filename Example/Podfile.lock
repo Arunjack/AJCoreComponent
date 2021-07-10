@@ -1,15 +1,22 @@
 PODS:
-  - AJCoreComponent (0.1.0)
+  - AJCoreComponent (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - AJCoreComponent (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   AJCoreComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AJCoreComponent: 1f6582365fd117ccad3d04458b08a3d6240ae46c
+  AJCoreComponent: 561f23874ae114930699722fb0a0286121912ef6
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: af4d4f70a01e34d76a6a2aff554520f8b4fba166
 
