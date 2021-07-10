@@ -1,0 +1,22 @@
+{
+  "name": "AJCoreComponent",
+  "version": "0.1.0",
+  "summary": "A short description of AJCoreComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arun.tell6@gmail.com/AJCoreComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arun.tell6@gmail.com": "arun.tell6@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arun.tell6@gmail.com/AJCoreComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AJCoreComponent/Classes/**/*"
+}

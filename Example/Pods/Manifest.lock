@@ -1,0 +1,16 @@
+PODS:
+  - AJCoreComponent (0.1.0)
+
+DEPENDENCIES:
+  - AJCoreComponent (from `../`)
+
+EXTERNAL SOURCES:
+  AJCoreComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AJCoreComponent: 1f6582365fd117ccad3d04458b08a3d6240ae46c
+
+PODFILE CHECKSUM: af4d4f70a01e34d76a6a2aff554520f8b4fba166
+
+COCOAPODS: 1.10.1
