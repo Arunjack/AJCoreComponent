@@ -44,6 +44,7 @@
 		B070A02E7009B70359BBE82D499857FA /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */; };
 		B35F6D57E21E0B551AEB4F81A2BD2B61 /* Pods-AJCoreComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB094DD4187C337D91CA20B1D9A15A /* Pods-AJCoreComponent_Tests-dummy.m */; };
 		B42709EC2699EA1E0037C724 /* AJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42709EB2699EA1E0037C724 /* AJTextField.swift */; };
+		B42709EE2699F85A0037C724 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42709ED2699F85A0037C724 /* images.xcassets */; };
 		C96A89869E165D42AC3F3864935F039F /* Pods-AJCoreComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B4161F59F89C5DFA36FD8E0FB613CF /* Pods-AJCoreComponent_Example-dummy.m */; };
 		CEEA62AEA91F9D2019C10626A5297EAD /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA7168430B0A6235F744EF07F8693D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6688FE66950239FA4E48412FBB68E22 /* Foundation.framework */; };
@@ -152,6 +153,7 @@
 		AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		B42709EB2699EA1E0037C724 /* AJTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AJTextField.swift; path = AJCoreComponent/Classes/AJTextField.swift; sourceTree = "<group>"; };
+		B42709ED2699F85A0037C724 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = AJCoreComponent/Assets/images.xcassets; sourceTree = "<group>"; };
 		B6688FE66950239FA4E48412FBB68E22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 		61EC87B0BEB855D2D8E66FBAC0BDF118 /* AJCoreComponent */ = {
 			isa = PBXGroup;
 			children = (
+				B42709ED2699F85A0037C724 /* images.xcassets */,
 				B42709EB2699EA1E0037C724 /* AJTextField.swift */,
 				30CF4844ABA1AF8DF9E2030C7D56DC49 /* Pod */,
 				6B696C6DD34BE167D91FF2E69229A625 /* Support Files */,
@@ -588,6 +591,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B004E9E84A39A1506C16757EFAA4F3 /* AJCoreComponent.bundle in Resources */,
+				B42709EE2699F85A0037C724 /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

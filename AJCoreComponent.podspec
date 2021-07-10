@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'AJCoreComponent/Classes/**/*'
   
    s.resource_bundles = {
-     'AJCoreComponent' => ['AJCoreComponent/Assets/*.png']
+     'AJCoreComponent' => ['AJCoreComponent/Assets/**/*.{png,pdf,ttf,xcassets,json}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
